@@ -1,0 +1,115 @@
+/* clock coding */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* background-image: url('building-102840_1280.jpg'); */
+    /* background:transparent; */
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    justify-content: center; */
+    background-color: black;
+} 
+.clock{
+    width: 400px;
+    height: 400px;
+    background-color: rgb(15, 30, 233);
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    border-radius: 125px;
+    color: #0e0707;
+    text-align: center;
+    padding: 20px;
+    font-family: sans-serif;
+    box-shadow: 10px 10px 100px rgba(32, 110, 228, 0.932) ;
+}
+.clock .clock-a{
+    
+    background-color: rgb(42, 230, 99);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    right: 17%;
+    padding: 60px;
+    border-radius: 180px;
+    box-shadow: 10px 10px 100px rgba(240, 219, 219, 0.938) ;
+    font-size: 35px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 230px;
+    height: 230px;
+    text-align: center;
+}
+
+.clock .clock-b{
+    
+    background-color: rgb(216, 48, 216);
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 10%;
+    right: 17%;
+    padding: 60px;
+    border-radius: 180px;
+    box-shadow: 10px 10px 100px rgba(240, 219, 219, 0.938) ;
+    font-size: 35px;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    width: 220px;
+    height: 220px;
+    text-align: center;
+}
+
+.clock .clock-c{
+    
+    background-color: rgb(235, 247, 72);
+    width: 190px;
+    height: 190px;
+    justify-content: center;
+    align-items: center; 
+    position: absolute;
+    bottom: 14%;
+    right: 19%;
+    padding: 50px;
+    border-radius: 170px; 
+    box-shadow: 10px 10px 100px rgba(134, 86, 86, 0.938) ;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0px;
+    bottom: 0px;
+   
+}
+
+.clock .clock-d{
+    background-color: #f5f0f0;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 3%;
+    top: 36%;
+    padding: 3px;
+    font-size: 50px;
+    width: 155px;
+    height: 50px;
+    text-align: center;
+    width: 90%;
+    background: transparent;
+    border: none;
+    outline: none;
+    color:#070606;
+
+}
